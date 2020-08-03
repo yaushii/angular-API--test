@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule} from '@angular/material/button';
 import { MatMenuModule } from '@angular/material/menu';
@@ -37,6 +38,7 @@ const routes: Routes = [
     MatButtonModule,
     MatCardModule,
     MatMenuModule,
+    MatProgressSpinnerModule,
   ],
   
   providers: [],
